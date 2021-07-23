@@ -1,90 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Progate</title>
-    <link rel="stylesheet" href="./assets/stylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>New Web</title>
 </head>
 
-<body id="dark">
-    <header id="header" class="header">
-        <div class="header-logo">Progate</div>
-        <div class="header-list">
-            <ul>
-                <li>Tentang aku</li>
-                <li>Pelajaran</li>
-                <li>Hubungi Kami</li>
-            </ul>
-        </div>
-        <div class="header-btn">
-            <button id="btn-dark">
-                <svg style="display: block;" class="w-6 h-6 icon-svg icon-moon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-                </svg>
-
-                <svg style="display: none;" class="w-6 h-6 icon-svg icon-sun" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
-                </svg>
-            </button>
-        </div>
-    </header>
-
-    <div class="main">
-        <div class="copy-container">
-            <h1>HELLO WORLD<span>.</span></h1>
-            <h2>Ayo belajar coding</h2>
-        </div>
-
-        <div class="contents">
-            <h3 class="section-title">Pelajaran</h3>
-            <div class="contents-item">
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
-                <p>HTML & CSS</p>
-            </div>
-            <div class="contents-item">
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
-                <p>PHP</p>
-            </div>
-            <div class="contents-item">
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
-                <p>Ruby</p>
-            </div>
-            <div class="contents-item">
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
-                <p>Swift</p>
+<body>
+    <!-- Header -->
+    <section class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-left">
+                    <a href="#">Progate</a>
+                    <button id="humberger" class="btn btn-burger">
+                        <svg class="icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"></path></svg>
+                    </button>
+                </div>
+                <ul id="nav" class="header-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li> <a id="toggle-dark" href="#">Klik</a></li>
+                </ul>                   
             </div>
         </div>
+    </section>
 
-        <div class="contact-form">
-            <h3 class="section-title">Hubungi kami</h3>
-            <p>Email (Wajib Diisi)</p>
-            <!-- Tambahkan tag <input> -->
-            <input>
 
-            <p>Pesan (Wajib Diisi)</p>
-            <!-- Tambahkan tag <textarea> -->
-            <textarea></textarea>
-            <!-- tamnbah perubahan -->
-            <p>*Bidang Wajib Diisi</p>
-            <!-- Tambahkan tag <input> -->
-            <input type="submit" class="contact-submit" value="Kirim">
+    <!-- Main -->
+    <section id="about" class="container">
 
-        </div>
-    </div>
+    </section>
 
-    <div class="footer">
-        <div class="footer-logo">Progate</div>
-        <div class="footer-list">
-            <ul>
-                <li>Tentang</li>
-                <li>Karier</li>
-                <li>Hubungi Kami</li>
-            </ul>
-        </div>
-    </div>
+    <!-- Footer -->
+    <section class="container">
 
-    <script src="./script.js"></script>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

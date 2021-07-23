@@ -1,6 +1,7 @@
 body {
   font-family: "Avenir Next";
   background-color : #F9F9F9;
+  margin: 0;
 }
 
 body.dark-mode {
@@ -12,6 +13,10 @@ li {
   list-style: none;
 }
 
+.container {
+    width: 100%;
+
+}
 
 .header {
   background-color: #26d0c9;
